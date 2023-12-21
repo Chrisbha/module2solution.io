@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    padding: 20px; 
+}
+
+.container {
+    overflow: hidden;
+}
+
+.section {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    background-color: #F5F5F5;
+    position: relative;
+    padding-top: 40px; 
+}
+
+.section-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .section {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .section {
+        width: 100%;
+    }
+}
